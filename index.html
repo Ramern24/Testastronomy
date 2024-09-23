@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Astronomía</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Cuestionario de Ciencias</h1>
+    <div id="name-container">
+        <label for="name">Ingresa tu nombre:</label>
+        <input type="text" id="name" required>
+        <button id="start-button">Iniciar</button>
+    </div>
+    <div id="question-container" class="hidden">
+        <div id="phrase"></div>
+        <div id="time"></div>
+        <div id="question"></div>
+        <div id="answers"></div>
+        <div id="score">Puntuación total: 0</div>
+    </div>
+    <div id="final-score" class="hidden"></div>
+    <footer>
+        Aprendiendo astronomía básica con el ingeniero Ramón Castellón
+    </footer>
+
+    <script src="script.js"></script> <!-- Asegúrate de que este sea el nombre correcto de tu archivo JS -->
+</body>
+</html>
+

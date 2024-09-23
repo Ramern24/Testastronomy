@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+.hidden {
+    display: none;
+}
+
+#name-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#name {
+    padding: 10px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+#name:focus {
+    border-color: #2c3e50;
+}
+
+#start-button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#start-button:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+}
+
+#question-container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#phrase {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #7f8c8d;
+}
+
+#time {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #e67e22;
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.answer {
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.answer:hover {
+    background-color: #d1e1e8;
+    transform: scale(1.02);
+}
+
+.correct {
+    background-color: #c8e6c9;
+    border-color: #388e3c;
+}
+
+.wrong {
+    background-color: #ffccbc;
+    border-color: #d32f2f;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#final-score {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ecf0f1;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Espacio superior para separarlo del contenido */
+}
+
